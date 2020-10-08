@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Loader\\": "src/"
+      "Example\\": "src/"
     }
   },
   "scripts": {
