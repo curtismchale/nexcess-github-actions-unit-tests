@@ -1,8 +1,8 @@
 <?php
 
-namespace Example;
+namespace Sfndesign;
 
-class Example {
+class PluginBase {
     public static function init() {
         define( 'EXAMPLE', 'initialized' );
 
