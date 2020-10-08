@@ -2,7 +2,7 @@
 
 namespace Sfndesign;
 
-class PluginBase {
+class \Sfndesign\PluginBase {
     public static function init() {
         define( 'EXAMPLE', 'initialized' );
 
