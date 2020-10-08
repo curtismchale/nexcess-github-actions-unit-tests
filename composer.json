@@ -1,6 +1,6 @@
 {
-  "name": "example/example",
-  "description": "Example",
+  "name": "acme/Loader",
+  "description": "Actions Plugin",
   "type": "wordpress-plugin",
   "license": "GPL-2.0-or-later",
   "authors": [

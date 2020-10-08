@@ -34,7 +34,7 @@ modules:
       adminEmail: "%WPTT_SITE_ADMIN_EMAIL%"
       title: "Test"
       plugins:
-        - "example/plugin.php"
+        - "nexcess-github-actions-unit-tests/plugin.php"
       activatePlugins:
-        - "example/plugin.php"
+        - "nexcess-github-actions-unit-tests/plugin.php"
       configFile: "tests/_data/config.php"
