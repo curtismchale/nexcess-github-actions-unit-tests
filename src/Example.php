@@ -1,8 +1,8 @@
 <?php
 
-namespace Example;
+namespace Acme;
 
-class Example {
+class Loader {
     public static function init() {
         define( 'EXAMPLE', 'initialized' );
 

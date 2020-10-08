@@ -16,7 +16,7 @@
  // class_exists(). If not it means there's no global autoloader in place and
  // the user is not using composer. In that case we can safely require the
  // bundled autoloader code.
- if (!\class_exists('\Example\Example')) {
+ if (!\class_exists('\Acme\Loader')) {
     require_once __DIR__ . '/vendor/autoload.php';
  }
 // This way we can add the vendor/ directory to git and have the plugin "just
@@ -29,6 +29,6 @@
 // the code in the autoloadable classes you'll have the option to ship the
 // plugin as normal composer library and just have users to call your init
 // function from a theme or a mu-plugin.
-\Example\Example::init();
+\Acme\Loader::init();
 // If want to add "accessor functions" that are not part of any class you can
 // just define them in the same file your init class is in.
