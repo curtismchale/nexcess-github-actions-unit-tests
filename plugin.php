@@ -1,9 +1,9 @@
 <?php
 /**
- * Plugin Name: Example Plugin
- * Plugin URI: https://github.com/valu-digital/wp-testing-tools
- * Description: Example plugin
- * Author: You?
+ * Plugin Name: Nexcess - Github Actions Unit Tests
+ * Plugin URI: https://nexcess.net
+ * Description: Plugin base that runs unit tests with Github Actions
+ * Author: Curtis McHale
  * Version: 0.1.0
  *
  * @package example
